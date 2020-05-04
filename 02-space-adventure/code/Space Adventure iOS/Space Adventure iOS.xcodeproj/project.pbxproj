@@ -1,0 +1,424 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		851B09292458342B00DD5AB1 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 851B09282458342B00DD5AB1 /* SnapKit */; };
+		851B092A2458387700DD5AB1 /* Spaceships.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 857E27C72458338C0071C64A /* Spaceships.xcassets */; };
+		851B092C245840B200DD5AB1 /* ControlViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 851B092B245840B200DD5AB1 /* ControlViewController.swift */; };
+		857E27A72458332C0071C64A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 857E27A62458332C0071C64A /* AppDelegate.swift */; };
+		857E27A92458332C0071C64A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 857E27A82458332C0071C64A /* SceneDelegate.swift */; };
+		857E27AB2458332C0071C64A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 857E27AA2458332C0071C64A /* ViewController.swift */; };
+		857E27AE2458332C0071C64A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 857E27AC2458332C0071C64A /* Main.storyboard */; };
+		857E27B02458332D0071C64A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 857E27AF2458332D0071C64A /* Assets.xcassets */; };
+		857E27B32458332D0071C64A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 857E27B12458332D0071C64A /* LaunchScreen.storyboard */; };
+		857E27BE2458337D0071C64A /* SpaceshipViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 857E27BD2458337D0071C64A /* SpaceshipViewController.swift */; };
+		857E27C3245833840071C64A /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 857E27BF245833840071C64A /* Player.swift */; };
+		857E27C4245833840071C64A /* Spaceship.swift in Sources */ = {isa = PBXBuildFile; fileRef = 857E27C0245833840071C64A /* Spaceship.swift */; };
+		857E27C5245833840071C64A /* Faction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 857E27C1245833840071C64A /* Faction.swift */; };
+		857E27C6245833840071C64A /* SpaceshipType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 857E27C2245833840071C64A /* SpaceshipType.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		851B092B245840B200DD5AB1 /* ControlViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControlViewController.swift; sourceTree = "<group>"; };
+		857E27A32458332C0071C64A /* Space Adventure iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Space Adventure iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		857E27A62458332C0071C64A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		857E27A82458332C0071C64A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		857E27AA2458332C0071C64A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		857E27AD2458332C0071C64A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		857E27AF2458332D0071C64A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		857E27B22458332D0071C64A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		857E27B42458332D0071C64A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		857E27BD2458337D0071C64A /* SpaceshipViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpaceshipViewController.swift; sourceTree = "<group>"; };
+		857E27BF245833840071C64A /* Player.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+		857E27C0245833840071C64A /* Spaceship.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Spaceship.swift; sourceTree = "<group>"; };
+		857E27C1245833840071C64A /* Faction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Faction.swift; sourceTree = "<group>"; };
+		857E27C2245833840071C64A /* SpaceshipType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpaceshipType.swift; sourceTree = "<group>"; };
+		857E27C72458338C0071C64A /* Spaceships.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Spaceships.xcassets; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		857E27A02458332C0071C64A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				851B09292458342B00DD5AB1 /* SnapKit in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		857E279A2458332C0071C64A = {
+			isa = PBXGroup;
+			children = (
+				857E27A52458332C0071C64A /* Space Adventure iOS */,
+				857E27A42458332C0071C64A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		857E27A42458332C0071C64A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				857E27A32458332C0071C64A /* Space Adventure iOS.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		857E27A52458332C0071C64A /* Space Adventure iOS */ = {
+			isa = PBXGroup;
+			children = (
+				857E27BA245833620071C64A /* Sources */,
+				857E27A62458332C0071C64A /* AppDelegate.swift */,
+				857E27A82458332C0071C64A /* SceneDelegate.swift */,
+				857E27AA2458332C0071C64A /* ViewController.swift */,
+				857E27AC2458332C0071C64A /* Main.storyboard */,
+				857E27AF2458332D0071C64A /* Assets.xcassets */,
+				857E27C72458338C0071C64A /* Spaceships.xcassets */,
+				857E27B12458332D0071C64A /* LaunchScreen.storyboard */,
+				857E27B42458332D0071C64A /* Info.plist */,
+			);
+			path = "Space Adventure iOS";
+			sourceTree = "<group>";
+		};
+		857E27BA245833620071C64A /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				857E27BC245833750071C64A /* Models */,
+				857E27BB2458336F0071C64A /* Views */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		857E27BB2458336F0071C64A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				857E27BD2458337D0071C64A /* SpaceshipViewController.swift */,
+				851B092B245840B200DD5AB1 /* ControlViewController.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		857E27BC245833750071C64A /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				857E27C1245833840071C64A /* Faction.swift */,
+				857E27BF245833840071C64A /* Player.swift */,
+				857E27C0245833840071C64A /* Spaceship.swift */,
+				857E27C2245833840071C64A /* SpaceshipType.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		857E27A22458332C0071C64A /* Space Adventure iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 857E27B72458332D0071C64A /* Build configuration list for PBXNativeTarget "Space Adventure iOS" */;
+			buildPhases = (
+				857E279F2458332C0071C64A /* Sources */,
+				857E27A02458332C0071C64A /* Frameworks */,
+				857E27A12458332C0071C64A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Space Adventure iOS";
+			packageProductDependencies = (
+				851B09282458342B00DD5AB1 /* SnapKit */,
+			);
+			productName = "Space Adventure iOS";
+			productReference = 857E27A32458332C0071C64A /* Space Adventure iOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		857E279B2458332C0071C64A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Niklas Arnitz";
+				TargetAttributes = {
+					857E27A22458332C0071C64A = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 857E279E2458332C0071C64A /* Build configuration list for PBXProject "Space Adventure iOS" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 857E279A2458332C0071C64A;
+			packageReferences = (
+				851B09272458342B00DD5AB1 /* XCRemoteSwiftPackageReference "SnapKit" */,
+			);
+			productRefGroup = 857E27A42458332C0071C64A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				857E27A22458332C0071C64A /* Space Adventure iOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		857E27A12458332C0071C64A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				857E27B32458332D0071C64A /* LaunchScreen.storyboard in Resources */,
+				857E27B02458332D0071C64A /* Assets.xcassets in Resources */,
+				851B092A2458387700DD5AB1 /* Spaceships.xcassets in Resources */,
+				857E27AE2458332C0071C64A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		857E279F2458332C0071C64A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				857E27C6245833840071C64A /* SpaceshipType.swift in Sources */,
+				857E27C4245833840071C64A /* Spaceship.swift in Sources */,
+				857E27AB2458332C0071C64A /* ViewController.swift in Sources */,
+				857E27BE2458337D0071C64A /* SpaceshipViewController.swift in Sources */,
+				851B092C245840B200DD5AB1 /* ControlViewController.swift in Sources */,
+				857E27A72458332C0071C64A /* AppDelegate.swift in Sources */,
+				857E27C3245833840071C64A /* Player.swift in Sources */,
+				857E27A92458332C0071C64A /* SceneDelegate.swift in Sources */,
+				857E27C5245833840071C64A /* Faction.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		857E27AC2458332C0071C64A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				857E27AD2458332C0071C64A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		857E27B12458332D0071C64A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				857E27B22458332D0071C64A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		857E27B52458332D0071C64A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		857E27B62458332D0071C64A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		857E27B82458332D0071C64A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6N5F2VGD4A;
+				INFOPLIST_FILE = "Space Adventure iOS/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "niklasarnitz.Space-Adventure-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		857E27B92458332D0071C64A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6N5F2VGD4A;
+				INFOPLIST_FILE = "Space Adventure iOS/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "niklasarnitz.Space-Adventure-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		857E279E2458332C0071C64A /* Build configuration list for PBXProject "Space Adventure iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				857E27B52458332D0071C64A /* Debug */,
+				857E27B62458332D0071C64A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		857E27B72458332D0071C64A /* Build configuration list for PBXNativeTarget "Space Adventure iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				857E27B82458332D0071C64A /* Debug */,
+				857E27B92458332D0071C64A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		851B09272458342B00DD5AB1 /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		851B09282458342B00DD5AB1 /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 851B09272458342B00DD5AB1 /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 857E279B2458332C0071C64A /* Project object */;
+}
